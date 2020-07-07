@@ -4,3 +4,5 @@
 #Live Data 
 #Data Binding 
 #View Model
+*******************************************
+https://developer.android.com/topic/libraries/architecture/adding-components
