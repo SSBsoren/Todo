@@ -1,2 +1,6 @@
-# Todo
-Using Room Database,Android Nav Component,Live Data ,View Model
+# Simple Todo App
+#Room Database
+#Android NavComponent
+#Live Data 
+#Data Binding 
+#View Model
