@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.stlindia.todo.fragments.MainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main" >
+        <action
+            android:id="@+id/action_mainFragment_to_newTodoFragment"
+            app:destination="@id/newTodoFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_todoListFragment"
+            app:destination="@id/todoListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/newTodoFragment"
+        android:name="com.stlindia.todo.fragments.NewTodoFragment"
+        android:label="fragment_new_todo"
+        tools:layout="@layout/fragment_new_todo" />
+    <fragment
+        android:id="@+id/todoListFragment"
+        android:name="com.stlindia.todo.fragments.TodoListFragment"
+        android:label="fragment_todo_list"
+        tools:layout="@layout/fragment_todo_list" />
+</navigation>
